@@ -15,3 +15,4 @@
            run: |
               echo 'Viewing the file: '   
               cat requirements.txt 
+         - uses: aufdenpunkt/python-safety-check@master # Step 4: safety check
